@@ -1,0 +1,22 @@
+{
+  "name": "api_elgeladon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "static": "node src/server",
+    "dev": "nodemon src/server"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "sucrase": "^3.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "keywords": [],
+  "author": "Felipe Bari",
+  "license": "ISC",
+  "description": ""
+}
